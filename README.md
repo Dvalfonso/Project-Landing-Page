@@ -1,2 +1,2 @@
 # Project-Landing-Page
-Project for The Odin Project.
+Proyecto de pagina con html y css.
