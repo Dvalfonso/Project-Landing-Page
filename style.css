@@ -1,3 +1,9 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
 .header {
     background-color: #1f2937;
     display: flex;
@@ -11,6 +17,7 @@
     color: #f9faf8;
     font-weight:900;
     padding-left: 100px;
+    display: flex;
 }
 
 li {
@@ -31,4 +38,65 @@ ul {
 .hedos {
     display: flex;
     justify-content: center;
+    padding: 120px;
+    gap: 40px;
+}
+
+.palFondo {
+    background-image: url(images/mar.jpg);
+}
+
+.cuadros {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    background-color: #1f2937;
+    padding: 40px;
+}
+
+.cuadrito {
+    border: #1f2937;
+    display: flex;
+    flex-direction: block;
+}
+
+.mensaje {
+    height: 500px;
+}
+
+.signUp {
+    height: 500px;
+}
+
+#textoGrande {
+    font-size: 40px;
+    font-weight:bolder;
+    color: #1f2937;
+}
+
+#textoChico {
+    font-size: 18px;
+    color: #1f2937;
+    margin-right: 40px;
+}
+
+.texto-Cuadritos {
+    color: #e5e7eb;
+    font-size: 32px;
+    text-align: center;
+}
+
+.cuadrito {
+    display: flex;
+    flex-direction: column;
+}
+
+.imagen {
+    border: 2px solid #f9faf8;
+}
+
+h2 {
+    text-align: center;
+    color: #e5e7eb;
+    font-size: 40px;
 }
